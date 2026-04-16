@@ -323,7 +323,7 @@ def load_model_and_data():
             return df_results
     else:
         # Create synthetic data for demo
-        dates = pd.date_range(start='2022-01-01', periods=800, freq='H')
+        dates = pd.date_range(start='2022-01-01', periods=800, freq='h')
         df_results = pd.DataFrame({
             'hour': [d.hour for d in dates],
             'day': [d.day for d in dates],
