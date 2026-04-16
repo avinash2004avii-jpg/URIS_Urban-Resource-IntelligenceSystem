@@ -7,7 +7,23 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+# ML Models
+*.pkl
 
+# Data files
+*.csv
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Base64 / large text assets
+bg_*.txt
+profile_*.txt
+
+# Environment
+.env
 # Environments
 .venv/
 venv/
